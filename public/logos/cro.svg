@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="360px" viewBox="0 0 360 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>app_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="24.0978423%" x2="68.1504441%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#1B65B0" offset="0%"></stop>
+            <stop stop-color="#05215B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="app_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <g id="Group" fill="url(#linearGradient-1)">
+                <rect id="Base-Copy" x="0" y="0" width="360" height="360" rx="80"></rect>
+            </g>
+            <g id="Logo-Copy-2" transform="translate(54.000000, 36.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M252,216 L252,72 L125.59276,0 L0,72 L0,216 L125.59276,288 L252,216 Z M10.5067873,209.388578 L10.5067873,77.9664054 L125.59276,12.3359462 L240.434389,77.9664054 L240.434389,209.388578 L125.59276,275.099664 L10.5067873,209.388578 Z" id="Shape"></path>
+                <polygon id="Shape" points="174.71797 62.1818182 76.7188161 62.1818182 65.4545455 114.461133 186.545455 114.545455"></polygon>
+                <polygon id="Shape" points="95.5246903 149.253859 66.0450183 130.909091 32.7272727 155.156089 78.2125284 232.363636 96.3413017 232.363636 117.818182 212.74271 117.818182 203.012007 95.5246903 182.114923"></polygon>
+                <polygon id="Shape" points="189.116883 130.909091 159.795016 149.493139 159.795016 182.354202 137.454545 203.171527 137.53668 213.06175 159.137943 232.363636 177.125307 232.363636 222.545455 155.395369"></polygon>
+                <polygon id="Shape" points="94.9090909 121.090909 105.928654 148.940302 102.531646 180 152.741082 179.919742 149.592635 148.940302 160.363636 121.090909"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
