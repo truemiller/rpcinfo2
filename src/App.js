@@ -50,18 +50,14 @@ export default function Home () {
                     content="Metamask Custom RPCs, and public RPC API endpoints for blockchain networks. Including Avalanche, Binance Smart Chain, Matic and more."/>
 
               <script async src="https://www.googletagmanager.com/gtag/js?id=UA-203811220-1"/>
-              <script
-                  dangerouslySetInnerHTML={{
-                    __html: `
-								window.dataLayer = window.dataLayer || [];
-								function gtag(){dataLayer.push(arguments);}
-								gtag('js', new Date());
-								gtag('config', 'UA-203811220-1');
-            	`,
-                  }}
-              />
-
-
+              <script>
+                {`
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'UA-203811220-1');
+                `}
+              </script>
             </Helmet>
             <div className={"flex-grow-1 h-100 bg-light"}>
               <header className="navbar navbar-expand-lg bg-white">
