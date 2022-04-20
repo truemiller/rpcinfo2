@@ -94,7 +94,7 @@ export default function Home () {
                       }).map(r => {
                         return <section key={r.s} className={"col-md-12 card-body border mb-3"}>
                           <h2 id={`${r.s}-rpc`} className={"fw-bold mb-2"}>
-                            <a class="text-decoration-none" href={r.u}>{r.n}</a> RPCs
+                            <a className="text-decoration-none" href={r.u}>{r.n}</a> RPCs
                           </h2>
                           <div className={"row"}>
                             <div className="col-md-12">
