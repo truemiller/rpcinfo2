@@ -1,0 +1,162 @@
+[{
+  "s": "avax",
+  "n": "Avalanche",
+  "d": "Avalanche is a high-throughput, scalable, smartcontract-enabled blockchain. There are multiple chains and subnets, including the X-Chain, C-Chain, P-Chain, and matching testnets.",
+  "i": "/logos/avax.png",
+  "u": "https://www.avax.network/"
+}, {
+  "s": "bsc",
+  "n": "Binance Smart Chain",
+  "d": "Avalanche is a high-throughput, scalable, smartcontract-enabled blockchain. There are multiple chains and subnets, including the X-Chain, C-Chain, P-Chain, and matching testnets.",
+  "i": "/logos/bnb.png",
+  "u": "https://www.bnbchain.world/en"
+}, {
+  "s": "eth",
+  "n": "Ethereum",
+  "d": "Avalanche is a high-throughput, scalable, smartcontract-enabled blockchain. There are multiple chains and subnets, including the X-Chain, C-Chain, P-Chain, and matching testnets.",
+  "i": "/logos/eth.png",
+  "u": "//ethereum.org"
+}, {
+  "s": "ftm",
+  "n": "Fantom",
+  "d": "Avalanche is a high-throughput, scalable, smartcontract-enabled blockchain. There are multiple chains and subnets, including the X-Chain, C-Chain, P-Chain, and matching testnets.",
+  "i": "/logos/ftm.png",
+  "u": "https://fantom.foundation/"
+}, {
+  "s": "one",
+  "n": "Harmony",
+  "d": "Harmony  is a high-throughput, scalable, smartcontract-enabled blockchain. There are multiple chains and subnets, including the X-Chain, C-Chain, P-Chain, and matching testnets.",
+  "i": "/logos/harmony.png",
+  "u": "https://www.harmony.one/"
+}, {
+  "s": "heco",
+  "n": "Huobi Eco Chain",
+  "d": "Huobi Eco Chain is a high-throughput, scalable, smartcontract-enabled blockchain. There are multiple chains and subnets, including the X-Chain, C-Chain, P-Chain, and matching testnets.",
+  "i": "/logos/heco.png",
+  "u": "https://www.hecochain.com"
+}, {
+  "s": "matic",
+  "n": "Polygon Matic",
+  "d": "Polygon Matic is a high-throughput, scalable, smartcontract-enabled blockchain. There are multiple chains and subnets, including the X-Chain, C-Chain, P-Chain, and matching testnets.",
+  "i": "/logos/matic.png",
+  "u": "https://polygon.technology/"
+}, {
+  "s": "kcc",
+  "n": "Kucoin Chain",
+  "d": "Kucoin Community Chain, operated by the KuCoin community",
+  "i": "/logos/kcc.png",
+  "u": "https://www.kcc.io/"
+},
+  {
+    "s": "ela",
+    "n": "Elastos",
+    "d": "Elastos is three elements in one, a Blockchain-powered internet, operating system, and web3 runtime.",
+    "i": "/logos/ela.png",
+    "u": "https://www.elastos.org/"
+  },
+  {
+    "s": "gno",
+    "n": "Gnosis",
+    "d": "xDai is an Ethereum sidechain. Smart-contract-enabled, EVM-compatible, and powered with xDai--a stablecoin and gas token.",
+    "i": "/logos/wxdai.png",
+    "u": "https://gnosis.io/"
+  },
+  {
+    "s": "ubiq",
+    "n": "Ubiq",
+    "d": "",
+    "i": "/logos/ubiq.png",
+    "u": "https://ubiqsmart.com/"
+  },
+  {
+    "s": "cro",
+    "n": "Cronos",
+    "d": "",
+    "i": "/logos/cro.svg",
+    "u": "https://cronos.org/"
+  },
+  {
+    "s": "fuse",
+    "n": "Fuse",
+    "d": "",
+    "i": "/logos/fuse.png",
+    "u": "https://fuse.io/"
+  },
+  {
+    "s": "moonriver",
+    "n": "Moonriver",
+    "d": "",
+    "i": "/logos/movr.webp",
+    "u": "https://moonbeam.network/networks/moonriver/"
+  },
+  {
+    "s": "okex",
+    "n": "OKEx",
+    "d": "",
+    "i": "/logos/okt.webp",
+    "u": "https://www.okx.com/okc"
+  },
+  {
+    "s": "telos",
+    "n": "Telos",
+    "d": "",
+    "i": "/logos/tlos.png",
+    "u": "https://www.telos.net/"
+  },
+  {
+    "s": "nahmii",
+    "n": "Nahmii",
+    "d": "",
+    "i": "/logos/nii.webp",
+    "u": "https://www.nahmii.io/"
+  },
+  {
+    "s": "iotex",
+    "n": "IoTeX",
+    "d": "",
+    "i": "/logos/iotex.webp",
+    "u": "https://iotex.io/"
+  },
+  {
+    "s": "hoo",
+    "n": "Hoo",
+    "d": "",
+    "i": "/logos/hoo.png",
+    "u": "https://www.hoosmartchain.com/"
+  },
+  {
+    "s": "celo",
+    "n": "Celo",
+    "d": "",
+    "i": null,
+    "u": "https://celo.org/"
+  },
+  {
+    "s": "near",
+    "n": "Near",
+    "d": "",
+    "i": null,
+    "u": "https://near.org/"
+  },
+  {
+    "s": "arbitrum",
+    "n": "Arbitrum",
+    "d": "",
+    "i": null,
+    "u": "https://offchainlabs.com/"
+  },
+  {
+    "s": "solana",
+    "n": "Solana",
+    "d": "",
+    "i": null,
+    "u": "https://solana.com/"
+  },
+  {
+    "s": "smartbch",
+    "n": "SmartBCH",
+    "d": "",
+    "i": null,
+    "u": "https://smartbch.org/"
+  }
+]
