@@ -208,6 +208,15 @@
   },
   {
     "network": "matic",
+    "name": "Matic Mainnet RPC",
+    "url": "https://matic-mainnet.chainstacklabs.com",
+    "chainId": "0x89",
+    "symbol": "MATIC",
+    "block_explorer": "https://explorer.matic.network/",
+    "type": "Mainnet"
+  },
+  {
+    "network": "matic",
     "name": "Matic Testnet RPC",
     "url": "https://rpc-mumbai.maticvigil.com",
     "chainId": "0x13881",
@@ -246,6 +255,15 @@
     "network": "one",
     "name": "Harmony Mainnet RPC",
     "url": "https://api.harmony.one/",
+    "chainId": "0x63564c40",
+    "symbol": "ONE",
+    "block_explorer": "https://explorer.harmony.one",
+    "type": "Mainnet"
+  },
+  {
+    "network": "one",
+    "name": "Harmony Mainnet RPC",
+    "url": "https://harmony-mainnet.chainstacklabs.com",
     "chainId": "0x63564c40",
     "symbol": "ONE",
     "block_explorer": "https://explorer.harmony.one",
