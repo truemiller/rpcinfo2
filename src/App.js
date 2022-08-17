@@ -76,9 +76,9 @@ export default function Home() {
                 `}
         </script>
       </Helmet>
-      <div className={""}>
-        <nav className="navbar navbar-expand-lg bg-white">
-          <div className="container-fluid">
+      <div className={"flex flex-column"}>
+        <nav className="navbar navbar-expand-lg bg-light">
+          <div className="container">
             <a href="/" className="navbar-brand">
               RPC Info
             </a>
@@ -104,6 +104,7 @@ export default function Home() {
                 {NETWORKS.sort((a, b) => a.s > b.s).map((network) => {
                   return (
                     <button
+                      key={network.s}
                       className={`border rounded btn ${
                         filterSlug === network.s
                           ? "btn-primary text-white"
@@ -221,7 +222,7 @@ export default function Home() {
           </section>
         </main>
 
-        <footer className="footer p-3 bg-white d-flex flex-row border-top">
+        <footer className="mt-auto footer p-3 bg-white d-flex flex-row border-top">
           <span className="text-muted align-self-start">
             &copy;{" "}
             <a href="https://mlxn.ltd" className={"text-decoration-none"}>
