@@ -125,10 +125,7 @@ export default function Home() {
                 })
                 .map((r) => {
                   return (
-                    <section
-                      key={r.s}
-                      className={"col-md-12 card-body border mb-3"}
-                    >
+                    <section key={r.s} className={"col-md-12 card-body  mb-3"}>
                       <h2 id={`${r.s}-rpc`} className={"fw-bold mb-2"}>
                         <a className="text-decoration-none" href={r.u}>
                           {r.n}
@@ -136,62 +133,56 @@ export default function Home() {
                         RPCs
                       </h2>
                       <div className={"row"}>
-                        <div className="col-md-12">
-                          <div className={"row"}>
-                            {RPCS.filter((x) => x.network === r.s).map((p) => {
-                              return (
-                                <div className={"col-md-4"} key={p.url}>
-                                  <div className="card mb-3">
-                                    <div className="card-body">
-                                      <h3 className={"border-bottom"}>
-                                        {p.name}
-                                      </h3>
-                                      <dl>
-                                        <dt>Type</dt>
-                                        <dd>{p.type}</dd>
-                                        <dt className={""}>RPC</dt>
-                                        <dd>
-                                          <a href={p.url}>{p.url}</a>
-                                        </dd>
-                                        <dt>Chain ID</dt>
-                                        <dd>{p.chainId}</dd>
-                                        <dt>Symbol</dt>
-                                        <dd>{p.symbol}</dd>
-                                        <dt>Block explorer</dt>
-                                        <dd>
-                                          <a href={p.block_explorer}>
-                                            {p.block_explorer}
-                                          </a>
-                                        </dd>
-                                        <>
-                                          {p.chainId ? (
-                                            <a
-                                              onClick={() =>
-                                                handleAddToMetamask(p.chainId)
-                                              }
-                                              className={
-                                                "btn btn-sm btn-primary rounded shadow mb-2"
-                                              }
-                                            >
-                                              Add to Metamask{" "}
-                                              <img
-                                                src="https://cdn.iconscout.com/icon/free/png-256/metamask-2728406-2261817.png"
-                                                height={13}
-                                                width={13}
-                                                alt="Metamask logo"
-                                                title={`Add ${p.name} RPC to Metamask`}
-                                              ></img>
-                                            </a>
-                                          ) : null}
-                                        </>
-                                      </dl>
-                                    </div>
-                                  </div>
+                        {RPCS.filter((x) => x.network === r.s).map((p) => {
+                          return (
+                            <div className={"col-md-4"} key={p.url}>
+                              <div className="card mb-3">
+                                <div className="card-body">
+                                  <h3 className={"border-bottom"}>{p.name}</h3>
+                                  <dl>
+                                    <dt>Type</dt>
+                                    <dd>{p.type}</dd>
+                                    <dt className={""}>RPC</dt>
+                                    <dd>
+                                      <a href={p.url}>{p.url}</a>
+                                    </dd>
+                                    <dt>Chain ID</dt>
+                                    <dd>{p.chainId}</dd>
+                                    <dt>Symbol</dt>
+                                    <dd>{p.symbol}</dd>
+                                    <dt>Block explorer</dt>
+                                    <dd>
+                                      <a href={p.block_explorer}>
+                                        {p.block_explorer}
+                                      </a>
+                                    </dd>
+                                    <>
+                                      {p.chainId ? (
+                                        <a
+                                          onClick={() =>
+                                            handleAddToMetamask(p.chainId)
+                                          }
+                                          className={
+                                            "btn btn-sm btn-primary rounded shadow mb-2"
+                                          }
+                                        >
+                                          Add to Metamask{" "}
+                                          <img
+                                            src="https://cdn.iconscout.com/icon/free/png-256/metamask-2728406-2261817.png"
+                                            height={13}
+                                            width={13}
+                                            alt="Metamask logo"
+                                            title={`Add ${p.name} RPC to Metamask`}
+                                          ></img>
+                                        </a>
+                                      ) : null}
+                                    </>
+                                  </dl>
                                 </div>
-                              );
-                            })}
-                          </div>
-                        </div>
+                              </div>
+                            </div>
+                          );
+                        })}
                       </div>
                     </section>
                   );
