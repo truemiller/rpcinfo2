@@ -1,4 +1,4 @@
-import "bootswatch/dist/cosmo/bootstrap.min.css";
+import "bootswatch/dist/zephyr/bootstrap.min.css";
 import { Helmet } from "react-helmet";
 import NETWORKS from "./json/networks.json";
 import RPCS from "./json/rpcs.json";
