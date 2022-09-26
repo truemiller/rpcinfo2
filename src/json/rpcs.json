@@ -19,6 +19,15 @@
   },
   {
     "network": "avax",
+    "name": "Avalanche C Chain Mainnet RPC",
+    "url": "https://1rpc.io/avax/c",
+    "chainId": 43114,
+    "symbol": "AVAX",
+    "block_explorer": "https://snowtrace.io",
+    "type": "Mainnet"
+  },
+  {
+    "network": "avax",
     "name": "Avalanche FUJI Testnet RPC",
     "url": "https://api.avax-test.network/ext/bc/C/rpc",
     "chainId": 43113,
@@ -48,6 +57,15 @@
     "network": "bsc",
     "name": "Binance Smart Chain Mainnet RPC",
     "url": "https://rpc.ankr.com/bsc",
+    "chainId": 56,
+    "symbol": "BNB",
+    "block_explorer": "https://bscscan.com",
+    "type": "Mainnet"
+  },
+  {
+    "network": "bsc",
+    "name": "Binance Smart Chain Mainnet RPC",
+    "url": "https://1rpc.io/bnb",
     "chainId": 56,
     "symbol": "BNB",
     "block_explorer": "https://bscscan.com",
@@ -93,6 +111,15 @@
     "network": "eth",
     "name": "Ethereum Mainnet RPC",
     "url": "https://rpc.ankr.com/eth",
+    "chainId": "0x1",
+    "symbol": "ETH",
+    "block_explorer": "https://etherscan.io",
+    "type": "Mainnet"
+  },
+  {
+    "network": "eth",
+    "name": "Ethereum Mainnet RPC",
+    "url": "https://1rpc.io/eth",
     "chainId": "0x1",
     "symbol": "ETH",
     "block_explorer": "https://etherscan.io",
@@ -210,6 +237,15 @@
     "network": "matic",
     "name": "Matic Mainnet RPC",
     "url": "https://matic-mainnet.chainstacklabs.com",
+    "chainId": "0x89",
+    "symbol": "MATIC",
+    "block_explorer": "https://explorer.matic.network/",
+    "type": "Mainnet"
+  },
+  {
+    "network": "matic",
+    "name": "Matic Mainnet RPC",
+    "url": "https://1rpc.io/matic",
     "chainId": "0x89",
     "symbol": "MATIC",
     "block_explorer": "https://explorer.matic.network/",
@@ -354,6 +390,15 @@
     "network": "arbitrum",
     "name": "Arbitrum Mainnet RPC",
     "url": "https://rpc.ankr.com/arbitrum",
+    "chainId": 42161,
+    "symbol": "ETH",
+    "block_explorer": "https://arbiscan.io/",
+    "type": "Mainnet"
+  },
+  {
+    "network": "arbitrum",
+    "name": "Arbitrum Mainnet RPC",
+    "url": "https://1rpc.io/arb",
     "chainId": 42161,
     "symbol": "ETH",
     "block_explorer": "https://arbiscan.io/",
